@@ -1,7 +1,7 @@
-name=input("Enter your name:")
-branch=input("Enter your branch:")
-year=int(input("Enter your year:"))
+Name=input("Enter your name:")
+Age=int(input("Enter your age:"))
+City=input("Enter your city:")
 
-print("Name:",name)
-print("Branch:",branch)
-print("Year:",year)
+print("My name is",Name)
+print("I am",Age,"Years old")
+print("I live in",City)

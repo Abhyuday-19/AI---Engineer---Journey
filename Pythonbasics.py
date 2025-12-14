@@ -1,7 +1,9 @@
-Name=input("Enter your name:")
-Age=int(input("Enter your age:"))
-City=input("Enter your city:")
+Maths=int(input("Enter your marks in maths:"))
+English=int(input("Enter your marks in English:"))
+Aptitude=int(input("Enter your marks in Aptitude:"))
 
-print("My name is",Name)
-print("I am",Age,"Years old")
-print("I live in",City)
+Total_marks=Maths+English+Aptitude
+print("Total marks is",Total_marks)
+
+percentage=(Total_marks/300)*100
+print("Percentage is",percentage)

@@ -1,4 +1,7 @@
-name = input("Enter your name: ")
-age = int(input("Enter your age: "))
+name=input("Enter your name:")
+branch=input("Enter your branch:")
+year=int(input("Enter your year:"))
 
-print(f"My name is {name} and I am {age} years old.")
+print("Name:",name)
+print("Branch:",branch)
+print("Year:",year)
